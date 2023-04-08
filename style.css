@@ -35,7 +35,7 @@ main
 }
 .right div, .right h1
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 10px;
 }
 .name-r
@@ -54,7 +54,117 @@ main
 {
     font-size: 1.6em;
 }
+h2
+{
+    color: #66C;
+    text-transform: uppercase;
+}
 table, tr, td
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.tdl
+{
+    width: 35%;
+    text-align: right;
+    padding-right: 20px;
+}
+.tdlc
+{
+    width: 25%;
+    text-align: right;
+    padding-right: 20px;
+}
+.orange
+{
+    color: rgb(204, 138, 15);
+}
+.blue
+{
+    color: #66C;
+}
+.project
+{
+    text-decoration: none;
+    color: #66C;
+}
+.hr-r
+{
+    position: relative;
+    width: 40%;
+    left: -15%;
+}
+.form
+{
+    padding-left: 5%;
+}
+h4
+{
+    margin: 0 0 10px 0;
+}
+.form ul
+{
+    margin: 0;
+}
+.form li
+{
+    list-style-type: square;
+}
+.work-td
+{
+    width: 20%;
+    height: 90px;
+    text-align: center;
+}
+.work-d
+{
+    padding-left: 30px;
+}
+.ot
+{
+    margin-top: 10px;
+}
+.time
+{
+    width: 90%;
+    margin: auto;
+}
+.time-date
+{
+    width: 100%;
+}
+.time td
+{
+    text-align: center;
+}
+.time
+{
+    border-bottom: 5px solid orange;
+}
+.time-top td
+{
+    width: 33%;
+}
+.time-bottom td
+{
+    width: 25%;
+    font-size: 0.9em;
+}
+.t-left
+{
+    padding-left: 1%;
+}
+.t-right
+{
+    text-align: right;
+    padding-right: 1%;
+}
+.diam
+{
+    color: orange;
+    font-size: 1.2em;
+    position: relative;
+    text-align: center;
+    bottom: -17px;
+    left: -30px;
 }
