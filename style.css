@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    background: #EEE;
+}
+main
+{
+    display: flex;
+    width: 1024px;
+    border: 1px solid black;
+    height: 1450px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+.left
+{
+    background: #66C;
+    width: 30%;
+    height: 1450px;
+}
+.name-l
+{
+    color: white;
+    font-size: 4em;
+    margin: 30px 20px 0 0;
+    text-align: right;
+    font-weight: normal;
+}
+.right
+{
+    background: #FFF;
+    width: 70%;
+    height: 1450px;
+    margin-left: 20px;
+}
+.right div, .right h1
+{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.name-r
+{
+    color: #66C;
+    font-size: 4em;
+    margin-top: 30px;
+    font-weight: normal;
+    /* border: 1px solid black; */
+}
+.work
+{
+    font-size: 1.8em;
+}
+.s-work
+{
+    font-size: 1.6em;
+}
+table, tr, td
+{
+    border: 1px solid black;
+}
