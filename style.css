@@ -12,20 +12,57 @@ main
     margin: 10px auto;
     background-color: #fff;
 }
+/* table, tr, td
+{
+    border: 1px solid black;
+} */
+/*DIV LEFT*/
 .left
 {
     background: #66C;
     width: 30%;
     height: 1450px;
+    color: white;
+}
+.left a
+{
+    color: white;
+    text-decoration: none;
+}
+.left div, .left h2, .left h3
+{
+    padding-left: 20px;
 }
 .name-l
 {
-    color: white;
     font-size: 4em;
     margin: 30px 20px 0 0;
     text-align: right;
     font-weight: normal;
 }
+.left div, .left h1
+{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.left h2
+{
+    text-transform: uppercase;
+}
+.photo
+{
+    height: 195px;
+}
+.contact li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.contact li img
+{
+    width:7%;
+}
+/*DIV RIGHT*/
 .right
 {
     background: #FFF;
@@ -54,14 +91,10 @@ main
 {
     font-size: 1.6em;
 }
-h2
+.right h2
 {
     color: #66C;
     text-transform: uppercase;
-}
-table, tr, td
-{
-    /* border: 1px solid black; */
 }
 .tdl
 {
@@ -159,12 +192,54 @@ h4
     text-align: right;
     padding-right: 1%;
 }
+.little
+{
+    font-size: 0.95em;
+}
 .diam
 {
     color: orange;
     font-size: 1.2em;
     position: relative;
-    text-align: center;
     bottom: -17px;
-    left: -30px;
+}
+.diam1
+{
+    left: -43px;
+}
+.diam2
+{
+    left: 30px;
+}
+.diam3
+{
+    left: 28px;
+}
+.diam4
+{
+    left: 40px;
+}
+.diam5
+{
+    left: -20px;
+}
+.diam6
+{
+    left: 20px;
+}
+.diam7
+{
+    left: 15px;
+}
+.diam8
+{
+    left: 10px;
+}
+.ot
+{
+    margin-top: 20px;
+}
+.ot span
+{
+    display: block;
 }
