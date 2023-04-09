@@ -40,23 +40,75 @@ main
     text-align: right;
     font-weight: normal;
 }
-.left div, .left h1
+/* .left div, .left h1
 {
     border: 1px solid black;
-    margin-bottom: 10px;
-}
+} */
 .left h2
 {
     text-transform: uppercase;
 }
 .photo
 {
-    height: 195px;
+    height: 215px;
+    padding-left: -20px;
+}
+.photo img
+{
+    width: 60%;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: -4px 2px 5px black;
+    display: block;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    left: -3%;
+    top: 15px;
+}
+.contact, .qualities, .certifications, .hobbies
+{
+    padding-bottom: 5px;
 }
 .contact li
 {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
+}
+.qualities li
+{
+    list-style-type: none;
+    padding-bottom: 4px;
+}
+.certifications li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.certifications
+{
+    height: 310px;
+}
+.certifications img
+{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    margin-right: 10px;
+}
+.hobbies li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.hobbies img
+{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    margin-right: 10px;
 }
 .contact li img
 {
@@ -107,6 +159,7 @@ main
     width: 25%;
     text-align: right;
     padding-right: 20px;
+    height: 45px;
 }
 .orange
 {
@@ -152,10 +205,6 @@ h4
 .work-d
 {
     padding-left: 30px;
-}
-.ot
-{
-    margin-top: 10px;
 }
 .time
 {
@@ -237,7 +286,7 @@ h4
 }
 .ot
 {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .ot span
 {
