@@ -1,8 +1,14 @@
+/* WORK TO DO */
+/* Rework vertical div "experiences" */
+/* position divs left */
+
 body
 {
     margin: 0;
     background: #EEE;
 }
+
+/* PAGE */
 main
 {
     display: flex;
@@ -10,6 +16,8 @@ main
     border: 1px solid black;
     height: 1450px;
     margin: 10px auto;
+    /*CSS TEST A SUPP*/
+    margin-top: 10px;
     background-color: #fff;
     box-shadow: 1px 1px 3px black;
 }
@@ -17,16 +25,11 @@ main
 {
     color:rgb(190, 126, 6);
 }
-/* table, tr, td
-{
-    border: 1px solid black;
-} */
 /*DIV LEFT*/
 .left
 {
     background: #66C;
     width: 30%;
-    height: 1450px;
     color: white;
 }
 .left a
@@ -85,6 +88,7 @@ h2
 {
     position: relative;
     top:4px;
+    width: 17px;
     margin-right: 2px;
 }
 .contact, .qualities, .certifications, .hobbies
@@ -131,22 +135,25 @@ h2
     height: 30px;
     margin-right: 10px;
 }
-.contact li img
-{
-    width:7%;
-}
 /*DIV RIGHT*/
 .right
 {
     background: #FFF;
     width: 70%;
-    height: 1450px;
     margin-left: 20px;
 }
 .right div, .right h1
 {
     /* border: 1px solid black; */
     margin-bottom: 10px;
+}
+.name-gest
+{
+    display: flex;
+}
+.name-resp
+{
+    display: none;
 }
 .name-r
 {
@@ -230,6 +237,7 @@ h4
 {
     width: 90%;
     margin: auto;
+    border-bottom: 5px solid orange;
 }
 .time-date
 {
@@ -238,10 +246,6 @@ h4
 .time td
 {
     text-align: center;
-}
-.time
-{
-    border-bottom: 5px solid orange;
 }
 .time-top td
 {
@@ -274,7 +278,7 @@ h4
 }
 .diam1
 {
-    left: -43px;
+    left: -50px;
 }
 .diam2
 {
@@ -290,7 +294,7 @@ h4
 }
 .diam5
 {
-    left: -20px;
+    left: -25px;
 }
 .diam6
 {
@@ -302,7 +306,7 @@ h4
 }
 .diam8
 {
-    left: 10px;
+    left: 15px;
 }
 .ot
 {
@@ -311,4 +315,262 @@ h4
 .ot span
 {
     display: block;
+}
+.worked-resp
+{
+    display: none;
+}
+.left-resp
+{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .left
+    {
+        display: none;
+    }
+    .right
+    {
+        /* border: 1px solid black; */
+        width: 100%;
+        margin-left: 0;
+        padding: 0 2%;
+        /* max-width: 700px; */
+    }
+    /* .right div
+    {
+        margin: 0 2%;
+    } */
+    main
+    {
+        width: 99%;
+        height: inherit;
+        margin: 0 0.5%;
+    }
+    .name-resp
+    {
+        display: inline;
+        padding-right: 20px;
+    }
+    .worked
+    {
+        display: none;
+    }
+    .worked-resp
+    {
+        display: block;
+    }
+    .left-resp
+    {
+        display: block;
+        margin-left: -2%;
+    }
+}
+/* pro resp */
+/* .pro-resp *
+{
+    border: 1px solid black;
+} */
+.pro-resp
+{
+    display: flex;
+    margin-top: 40px;
+}
+.pro1, .pro2
+{
+    width: 50%;
+    display: flex;
+    /* border-left: 1px solid lightgrey; */
+}
+/* .pro3
+{
+    width: 20%;
+    display: flex;
+} */
+.pro-resp table
+{
+    border-spacing: 0;
+    font-size: 1em;
+}
+.pro-title
+{
+    width: 33%;
+    text-align: center;
+    font-size: 0.9em;
+    min-width: 80px;
+    min-height: 34px;
+}
+.pro-title2
+{
+    width: 20%;
+    text-align: center;
+    font-size: 0.9em;
+    min-width: 80px;
+    min-height: 34px;
+}
+.td-right
+{
+    border-left:4px solid rgb(190, 126, 6);
+    padding-left: 10px;
+}
+.mid
+{
+    text-align: center;
+}
+.bold
+{
+    font-weight: bold;
+}
+.cds td
+{
+    height: 30px;
+}
+.year
+{
+    display:flex;
+    position: relative;
+    left: 11.5px;
+    /* min-height: 34px; */
+}
+.year-top
+{
+    bottom: 16px;
+}
+.year-bottom
+{
+    bottom: -16px;
+}
+.year-midtop
+{
+    bottom: 6px;
+}
+.year-midbot
+{
+    bottom: -6px;
+}
+.work-tabletop
+{
+    position: relative;
+    bottom: 8px;
+}
+.work-tablebot
+{
+    position: relative;
+    bottom: -8px;
+}
+.diam-resp
+{
+    color: rgb(190,126,6);
+    font-size: 1.3em;
+    position: relative;
+    top: -4px;
+}
+.diam-resp2
+{
+    color: rgb(190,126,6);
+    font-size: 1.3em;
+    position: relative;
+    top: -4px;
+}
+.worked-resp hr
+{
+    margin-inline-start: 5em;
+    margin-inline-end: 5em;
+}
+.ot-resp
+{
+    padding-top: 15px;
+    margin-top: 10px;
+    width: 60%;
+    margin: auto;
+}
+.ot-resp span
+{
+    display: block;
+}
+.left-resp *
+{
+    background-color: #66C;
+    color: white;
+}
+.left-resp a
+{
+    text-decoration: none;
+    font-weight: normal;
+}
+.left-resp h2
+{
+    color: white;
+}
+.left-resp-top div
+{
+    margin-bottom: 0;
+}
+.left-resp div
+{
+    background-color: #66C;
+}
+.left-resp-top div
+{
+    width: 45%;
+    display: inline-block;
+}
+.left-resp div
+{
+    padding-left: 15px;
+}
+.left-resp-top .hobbies li
+{
+    margin-bottom: 14px;
+}
+.left-resp-top .hobbies ul
+{
+    margin-bottom: 0px;
+}
+.qualities-r li
+{
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 700px)
+{
+    .pro-resp
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .pro2
+    {
+        margin-top: 30px;
+    }
+}
+/* RESP sub 600px */
+@media screen and (max-width: 600px) {
+    .pro-resp
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .pro1, .pro2
+    {
+        width: 100%;
+        display: flex;
+    }
+    .pro-title2
+    {
+        width: 10%;
+    }
+    .pro2
+    {
+        margin-top: 30px;
+    }
+    .ot-resp
+    {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .left-resp-top div
+    {
+        width: 99%;
+        display: inline-block;
+    }
 }
